@@ -50,13 +50,14 @@ aside {
 .todayStats {
     list-style-type: none;
     line-height: 2;
+    padding-left: 0;
 }
 
 .fivedayForecast {
-float: right;
-display: flex;
-flex-direction: column;
-width:75%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    width:75%;
 }
 
 .cards {
@@ -70,11 +71,21 @@ width:75%;
 .card-3,
 .card-4,
 .card-5 {
-display: flex;
-flex-direction: column;
-background-color:  rgb(47, 47, 79);
-padding: 10px;
-margin: 10px;
-color: white;
-flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color:  rgb(47, 47, 79);
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    flex: 1;
+}
+
+.stats-1,
+.stats-2,
+.stats-3,
+.stats-4,
+.stats-5 {
+    list-style-type: none;
+    line-height: 3;
+    padding-left: 0;
 }
